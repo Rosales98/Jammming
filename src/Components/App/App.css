@@ -1,11 +1,16 @@
 #root {
-  max-width: 1280px;
   margin: 0 auto;
   text-align: center;
+  height: 100%;
+}
+
+html {
+  font-size: 18px;
 }
 
 body {
   margin: 0;
+  height: 100%;
 }
 
 .container {
@@ -18,5 +23,10 @@ h1 {
   background-color: blueviolet;
   width: 100%;
   margin: 0;
+  text-align: center;
 }
 
+.App {
+  height: 100%;
+  
+}

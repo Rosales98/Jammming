@@ -1,0 +1,20 @@
+.SearchBar {
+    align-items: center;
+}
+
+.SearchBar input {
+    width: 285px;
+    border: 2px solid #fff;
+    border-radius: 3px;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+}
+
+.SearchButton {
+    cursor: pointer;
+    width: 70px;
+    border-radius: 50px;
+    text-align: center;
+    border: 0px;
+}

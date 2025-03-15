@@ -1,15 +1,13 @@
 import "../SearchResults/SearchResults.css";
+import Tracklist from "../Tracklist/Tracklist"
 
-function Results() {
+/* should display search result */
+const Results = () => {
   return (
     <>
       <div className="results-container">
         <h2>Results</h2>
-        <div className="results">
-        <ul>
-          <li>a Song</li>
-        </ul>
-        </div>
+       <Tracklist/>
       </div>
     </>
   );
