@@ -4,4 +4,13 @@ import Tracklist from "../Tracklist/Tracklist"
 
 const Playlist = () => {
 
+    return (
+        <>
+        <div className="Playlist">
+            <button className="Save-Btn">SAVE TO SPOTIFY</button>
+        </div>
+        </>
+    )
 };
+
+export default Playlist;
