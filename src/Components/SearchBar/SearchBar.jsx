@@ -9,10 +9,11 @@ const SearchBar = ({callback}) => {
     e.preventDefault()
     callback(searchInput)
   }
+
   return (
     <>
       <div>
-        <form action="/" className="SearchBar">
+        <form action="/" className="SearchBar" onSubmit={handleSubmit}>
           <input
             type="text"
             className="SearchBarInput"
